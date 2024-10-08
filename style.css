@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5D9F2;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #7857FF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.last-nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    width: 40%;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #7857FF;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.logo-img {
+    width: 45px;
+}
+
+.menu-logo {
+    width: 45px;
+}
+
+.profile-pic {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #7857FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.last-sec {
+    background-color: #CDC1FF;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.hello {
+    font-size: 34px;
+
+    font-weight: 400;
+}
+
+.myname {
+    font-size: 56px;
+}
+
+.work {
+    font-size: 47px;
+    color: #A594F9;
+}
+.scroll{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 55% 35%;
+    gap: 10px;
+    justify-items: end;
+    justify-content: center;
+}
+.text-area{
+    width: 100%;
+    align-items: start;
+    text-align: start;
+}
+.text-area-in , .box-up{
+    width: 90%;
+}
+.box-up{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.rgt-tick{
+    color: #A594F9;
+    margin: 5px;
+}
+.box1{
+    background-color: #CDC1FF;
+    border-radius: 20px;
+    
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1-in{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.box1-logo{
+    width: 35px;
+    background-color: #7857FF;
+    padding: 10px;
+    border-radius: 50px;
+}
